@@ -10,7 +10,7 @@
 }
 
 .container .leftside {
-    background-image: url('../images/hero.jpg');
+    background-image: url('../images/main.jpg');
     width: 1000px;
     height: 100vh;
     background-size: cover;
@@ -23,11 +23,11 @@
     align-items: center;
     justify-content: center;
     height: 100px;
-    background-color: #6a46a42f;
+    background-color: #9580b62f;
     gap: 10px;
     position: absolute;
     width: 100%;
-    top: 150px;
+    top: 300px;
 }
 
 
@@ -42,10 +42,109 @@
     width: 100%;
     bottom: 0;
     text-align: right;
-    color: rgba(62, 37, 122, 0.28);
+    color: rgba(255, 255, 255, 0.844);
     padding-right: 10px;
 }
 
 .credits a {
-    color: rgba(62, 37, 122, 0.28);
+    color: rgba(255, 255, 255, 0.844);
+}
+
+.rightside {
+    background-color: rgb(242, 242, 242);
+    padding: 100px 0;
+}
+.form-container {
+    background-color: white;
+    height: 300px;
+    box-shadow: 0px 4px 5px rgba(0, 0, 0, .1);
+    margin: 30px 0;
+    border: 1px solid rgb(255, 255, 255);
+}
+
+.message,
+.lg,
+h2,
+.formfield, 
+button,
+.login {
+    margin: 10px 50px;
+}
+
+.message,
+.lg {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+h2 {
+    font-weight: 400;
+    margin: 30px 50px;
+}
+
+.formfield {
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
+
+.formfield label {
+    display: block;
+    font-size: 13px;
+    text-transform: uppercase;
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+
+.formfield input {
+    border: 1px solid #dddddd;
+    width: 300px;
+    height: 30px;
+    font-size: 14px;
+    padding: 0 10px;
+    border-radius: 4px;
+}
+
+.formfield input:focus {
+    outline: none;
+    border: 1px solid rgb(237, 51, 0);
+    box-shadow: 0px 4px 5px rgba(0, 0, 0, .1);
+}
+
+button {
+    width: 200px;
+    height: 40px;
+    padding: 10px;
+    font-size: 16px;
+    color: white;
+    background-color: rgb(237, 51, 0);
+    border: none;
+    outline: none;
+    cursor: pointer;
+    box-shadow: 0px 4px 5px rgba(0, 0, 0, .1);
+    border-radius: 8px;
+    margin-bottom: 40px;
+}
+
+
+button:hover {
+    background-color: rgb(186, 40, 0);
+}
+
+.login {
+    text-decoration: none;
+    color: black;
+    padding: 50px 0;
+}
+
+.login span {
+    font-weight: 600;
+    color: rgb(237, 51, 0);
+}
+
+
+.login span:hover {
+    font-weight: 600;
+    color: rgb(186, 40, 0);
+    text-decoration: underline;
 }
